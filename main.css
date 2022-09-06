@@ -1,0 +1,21 @@
+td {
+    width: 1%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+
+td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+
+td button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
